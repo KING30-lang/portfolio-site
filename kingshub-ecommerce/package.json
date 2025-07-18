@@ -1,0 +1,30 @@
+{
+  "name": "kingshub-ecommerce",
+  "version": "1.0.0",
+  "description": "An e-commerce website built with React.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "ecommerce",
+    "react",
+    "web"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/your-username/kingshub-ecommerce#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/kingshub-ecommerce.git"
+  }
+}

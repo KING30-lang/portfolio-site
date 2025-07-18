@@ -1,1 +1,25 @@
+npx create-react-app ecommerce-site
+git checkout -b ecommerce-feature
+src/
+  components/
+  pages/
+  assets/
+  services/
+  npm install react-router-dom
+npm install redux react-redux
+npm install bootstrap
+npm install axiosimport { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+function App() {
+  return (
+    <Router>
+      <Switch>
+        <Route path="/products" component={ProductsPage} />
+        <Route path="/cart" component={CartPage} />
+        {/* Add other routes */}
+      </Switch>
+    </Router>
+  );
+}
+
 
